@@ -1,0 +1,1 @@
+export const saveTasks=t=>localStorage.setItem('tasks',JSON.stringify(t)); export const loadTasks=()=>JSON.parse(localStorage.getItem('tasks'))||[];

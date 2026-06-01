@@ -1,0 +1,1 @@
+export function validateTaskInput(v){return v.trim().length>0 && v.trim().length<=100;}
